@@ -1,5 +1,6 @@
 name: base_env
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - aiofiles=22.1.0=py311hecd8cb5_0
@@ -21,10 +22,11 @@ dependencies:
   - brotli-bin=1.0.9=hca72f7f_7
   - brotlipy=0.7.0=py311h6c40b1e_1002
   - bzip2=1.0.8=h1de35cc_0
-  - ca-certificates=2023.05.30=hecd8cb5_0
-  - certifi=2023.5.7=py311hecd8cb5_0
+  - ca-certificates=2023.5.7=h8857fd0_0
+  - certifi=2023.5.7=pyhd8ed1ab_0
   - cffi=1.15.1=py311h6c40b1e_3
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
+  - colorama=0.4.6=pyhd8ed1ab_0
   - comm=0.1.2=py311hecd8cb5_0
   - contourpy=1.0.5=py311ha357a0b_0
   - cryptography=39.0.1=py311hf6deb26_2
@@ -35,8 +37,10 @@ dependencies:
   - entrypoints=0.4=py311hecd8cb5_0
   - et_xmlfile=1.1.0=py311hecd8cb5_0
   - executing=0.8.3=pyhd3eb1b0_0
+  - filelock=3.12.2=pyhd8ed1ab_0
   - fonttools=4.25.0=pyhd3eb1b0_0
   - freetype=2.12.1=hd8bbffd_0
+  - gdown=4.7.1=pyhd8ed1ab_0
   - gettext=0.21.0=he85b6c0_1
   - giflib=5.2.1=h6c40b1e_3
   - glib=2.69.1=hfff2838_2
@@ -120,7 +124,7 @@ dependencies:
   - numpy=1.24.3=py311h728a8a3_1
   - numpy-base=1.24.3=py311h53bf9ac_1
   - openpyxl=3.0.10=py311h6c40b1e_0
-  - openssl=3.0.9=hca72f7f_0
+  - openssl=3.1.1=h8a1eda9_1
   - packaging=23.0=py311hecd8cb5_0
   - pandas=1.5.3=py311hc5848a5_0
   - pandocfilters=1.5.0=pyhd3eb1b0_0
@@ -181,6 +185,7 @@ dependencies:
   - tk=8.6.12=h5d9f67b_0
   - toml=0.10.2=pyhd3eb1b0_0
   - tornado=6.2=py311h6c40b1e_0
+  - tqdm=4.65.0=pyhd8ed1ab_1
   - traitlets=5.7.1=py311hecd8cb5_0
   - typing-extensions=4.6.3=py311hecd8cb5_0
   - typing_extensions=4.6.3=py311hecd8cb5_0
